@@ -23,10 +23,10 @@ class p7_euler {
             } while(isPrime(n) == false);
         }
 
-        System.out.println(n);
+        System.out.println("Result: " + n);
     }
     
-    //Method for checking if the given number is prime or not
+    //Function for checking if the given number is prime or not
     public static boolean isPrime(int n) {
         /* 
             If number is less than 2 then return false,

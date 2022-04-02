@@ -29,7 +29,7 @@ class p10_euler {
         System.out.println("Result: " + sum);
     }
 
-    //Method for checking if the given number is prime or not
+    //Function for checking if the given number is prime or not
     public static boolean isPrime(int n) {
         /* 
             If number is less than 2 then return false,
