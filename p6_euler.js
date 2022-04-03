@@ -18,6 +18,8 @@
     iSquare
 */
 
+console.time("time");
+
 let squareSum = 0;
 let iSum = 0;
 
@@ -28,3 +30,5 @@ for (let i = 0; i <= 100; i++) {
 
 let iSquare = iSum ** 2;
 console.log(`Result: ${iSquare - squareSum}`);
+
+console.timeEnd("time");

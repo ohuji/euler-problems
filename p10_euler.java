@@ -13,6 +13,8 @@
 
 class p10_euler {
     public static void main(String args[]) {
+        long start = System.currentTimeMillis();
+
         long sum = 2;
         int target = 2000000;
 
@@ -27,6 +29,11 @@ class p10_euler {
         }
 
         System.out.println("Result: " + sum);
+
+        long end = System.currentTimeMillis();
+
+        System.out.println("Time: " + (end - start) + "ms");
+
     }
 
     //Function for checking if the given number is prime or not
@@ -36,7 +43,7 @@ class p10_euler {
             since prime numbers can't be negative, 0 or 1.
             This is kind of unneccesary since could
             just start the loop from index 2. But now
-            this method would be reusable, so I prefer
+            this function would be reusable, so I prefer
             it this way
         */
         if (n < 2) {
