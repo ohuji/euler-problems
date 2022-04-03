@@ -1,5 +1,6 @@
 # Project Euler problem solutions
 This repository contains solutions for Project Euler problems 6, 7, 10.
+
 https://projecteuler.net/
 
 Two of the solutions are written in Java and one in JavaScript.
