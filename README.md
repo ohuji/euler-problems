@@ -64,7 +64,7 @@ Time: 614ms
 ```
 Im using the same function for checking prime numbers as in #7 solution.
 
-It is kind of straight forward solution of just checking primes and until target and summing them. 
+It is kind of straight forward solution of just checking primes until target and summing them. 
 
 Using System.currentTimeMillis() it takes around 614ms for the solution. It takes a lot more time since the target is 2mil. 
 
